@@ -2,8 +2,14 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5rem
+  font-size: 1.5rem;
+  color: #40514E;
 }
+
+p {
+  line-height: 1.5;
+}
+
 
 h1 {
 margin: 50px auto 0 auto;
@@ -17,6 +23,7 @@ h2 {
 font-family: 'Montserrat', sans-serif;
 font-size: 2.5rem;
 color: #66BFBF;
+padding-bottom: 10px;
 }
 
 h3 {
@@ -28,6 +35,11 @@ a {
   color: #11999E;
   text-decoration: none;
   padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 hr {
@@ -36,6 +48,7 @@ hr {
   border-color: #40514e;
   border-width: 6px;
   width: 7%;
+  margin: 100px auto;
 }
 
 .top-container {
@@ -60,15 +73,14 @@ hr {
   bottom: 300px;
 }
 
-.profile {
-  margin: 100px auto 100px auto;
+.middle-container {
+  margin: 100px 0;
 }
 
 .skill-row {
-  width: 40%;
-  margin: 100px auto 100px auto;
+  width: 50%;
+  margin: 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .skill-logo1 {
@@ -95,19 +107,37 @@ hr {
 .bottom-container {
   position: relative;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   background-color: #66BFBF;
 }
 
 .footer {
-  margin: 50px auto 50px auto;
+  margin: 10px auto 10px auto;
   line-height: 2;
 }
 
-.footer-link {
-
+.btn {
+	background:linear-gradient(to bottom, #7fffdf 5%, #1fad8a 100%);
+	background-color:#7fffdf;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:28px;
+	padding:7px 10px;
+	text-decoration:none;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #1fddff 5%, #7fecff 100%);
+	background-color:#1fad8a;
+}
+.btn:active {
+	position:relative;
+	top:1px;
 }
 
 .copy {
   color: #EAF6F6;
+  font-size: 1rem;
 }
